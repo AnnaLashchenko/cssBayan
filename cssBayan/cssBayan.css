@@ -1,0 +1,101 @@
+body{
+    background-color: #b0c7e6;
+}
+.title{
+    text-align: center;
+    font-family: Arial;
+}
+
+li{
+    list-style-type: none;
+    border-bottom:3px solid #a48eb7;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+a{
+    font: 20px Arial bold;
+    text-decoration: none;
+}
+a:hover{
+    color: #8c89df; /* Цвет ссылки при наведении */ 
+    text-decoration: underline;
+}
+
+
+.pic1{
+    display:none;
+    margin-left: 35%;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }
+
+ .number1:hover+div{
+    display:block;
+    text-decoration: none;
+    transition: 10s;
+ }
+
+ .pic2{
+    display:none;
+    margin-left: 25%;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }
+
+ .number2:hover+div{
+    display:block;
+    text-decoration: none;
+ }
+
+ .pic3{
+    display:none;
+    margin-left: 20%;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }
+
+ .number3:hover+div{
+    display:block;
+    text-decoration: none;
+ }
+ 
+ .pic5{
+    display:none;
+    margin-left: 40%;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }
+
+ .number5:hover+div{
+    display:block;
+    text-decoration: none;
+ }
+  /* анимация при появлении блоков с содержанием */
+  @-moz-keyframes fadeIn {
+      from { opacity: 0; }
+  to { opacity: 1 }
+  }
+  @-webkit-keyframes fadeIn {
+      from { opacity: 0; }
+  to { opacity: 1 }
+  }
+  @keyframes fadeIn {
+      from { opacity: 0; }
+  to { opacity: 1 }
+  }
